@@ -15,9 +15,6 @@
       </feature>
     </config-file>
 
-    <config-file parent="/*" target="AndroidManifest.xml">
-    </config-file>
-
     <source-file src="src/android/MapboxPlugin.java" target-dir="src/ddi/gobelins/cordovaplugins" />
 
     <config-file parent="/*" target="AndroidManifest.xml">
