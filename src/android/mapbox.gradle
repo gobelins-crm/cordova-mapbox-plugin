@@ -1,0 +1,10 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // add the Mapbox SDK dependency below
+    compile ('com.mapbox.mapboxsdk:mapbox-android-sdk:5.0.0@aar'){
+        transitive=true
+    }
+}
